@@ -1,7 +1,7 @@
 ckan vs cnn comparison
 
 overview
-- clear, human readable pipeline for ckan vs cnn across datasets
+- clear readable pipeline for ckan vs cnn across datasets
 - focus on fixed parameter budget, memory estimate, calibration via mc dropout, explain via grad-cam, ckan attention
 
 what is ckan (here)
@@ -17,7 +17,7 @@ key features
 - explainability: grad-cam, ckan prototype attention maps
 - bayesian angle: mc dropout inference for uncertainty, calibration
 
-quick start
+# quick start
 1) create python env with pytorch, torchvision
 2) one click run: open, run `run_all.py` (uses `/usr/local/bin/python3`)
    - installs requirements (configurable), trains ckan/resnet/convnext under shared param budget, evaluates (mc dropout), saves explain overlays, summary csv
@@ -41,9 +41,7 @@ data
 - offline: ensure datasets present under `data/`
 
 outputs
-- checkpoints, logs, csv metrics under `outputs/<run_name>/`
-- explain images under `outputs/<run_name>/explain/`
+- checkpoints, logs, csv metrics under `outputs/summary.csv`
 
 notes
-- code explicit, legible, easy modify; no tricky one liners; clear control flow, descriptive names
-- ckan design practical, interpretable; not tied specific paper; adjust k, prototype dim, blocks when needed
+- ckan design practical, interpretable, adjust k & prototype dim blocks when needed
