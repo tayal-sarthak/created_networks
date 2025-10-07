@@ -1,0 +1,2 @@
+Executing a C-KAN (Convolutional Kolmogorov-Arnold Network) using the MNIST dataset. More uses of datasets in this pipeline are incoming. Check out run_model.py for my original code :)
+

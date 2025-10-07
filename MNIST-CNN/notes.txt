@@ -1,0 +1,2 @@
+Using a full PyTorch Pipeline to execute a CNN using the MNIST dataset; variations incoming.
+

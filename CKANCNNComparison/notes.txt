@@ -1,0 +1,1 @@
+Executing a CKAN vs CNN comparison pipeline across multiple datasets; parameter-budget matching, calibration, and methodology included. More variations incoming. Check out run_all.py for the full chain :)
