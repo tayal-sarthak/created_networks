@@ -1,0 +1,31 @@
+Using device: cpu
+Model: KANC MLP (Small) (gs = 3)
+Epoch 1 [TRAIN]: 100%|████████████████████████████████████████| 188/188 [01:40<00:00,  1.87it/s, loss=0.959]
+[TEST]: 100%|█████████████████████████████████████████████████████████████| 313/313 [01:48<00:00,  2.89it/s]
+
+Test set: Average loss: 0.4804, Accuracy: 8588/10000 (86%)
+
+
+/usr/local/bin/python3 /Users/tayasavvysarthak/Documents/coding/research/Networks/C-KAN/CIFARexecution.py                             
+tayasavvysarthak@Sarthaks-MacBook-Pro C-KAN % /usr/local/bin/python3 /Users/tayasavvysarthak/Documents/coding/research/Networks/C-KAN/
+CIFARexecution.py
+using device: mps
+model: kanc cifar (3 blocks, gs=3)
+epoch 1 [train]:   0%|                                                                                       | 0/3125 [00:00<?, ?it/s]/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/torch/autograd/graph.py:824: UserWarning: The operator 'aten::col2im' is not currently supported on the MPS backend and will fall back to run on the CPU. This may have performance implications. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/mps/MPSFallback.mm:14.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+epoch 1 [train]: 100%|███████████████████████████████████████████████████████████████| 3125/3125 [1:58:43<00:00,  2.28s/it, loss=3.43]
+[test]: 100%|█████████████████████████████████████████████████████████████████████████████████████| 1250/1250 [16:41<00:00,  1.25it/s]
+
+ test: avg loss 3.2714, acc 2231/10000 (22.3%)
+
+epoch 2 [train]: 100%|███████████████████████████████████████████████████████████████| 3125/3125 [1:57:55<00:00,  2.26s/it, loss=4.47]
+[test]: 100%|█████████████████████████████████████████████████████████████████████████████████████| 1250/1250 [16:28<00:00,  1.26it/s]
+
+ test: avg loss 3.0569, acc 2631/10000 (26.3%)
+
+epoch 3 [train]: 100%|███████████████████████████████████████████████████████████████| 3125/3125 [1:56:50<00:00,  2.24s/it, loss=3.01]
+[test]: 100%|█████████████████████████████████████████████████████████████████████████████████████| 1250/1250 [16:27<00:00,  1.27it/s]
+
+ test: avg loss 2.9437, acc 2963/10000 (29.6%)
+
+stopping early for 6h max

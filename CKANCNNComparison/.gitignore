@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+build/
+dist/
+*.egg-info/
+data/
+outputs/
+runs/
+checkpoints/
+logs/
+tmp/

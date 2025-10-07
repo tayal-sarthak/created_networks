@@ -1,0 +1,24 @@
+results from the coding!
+original_train: 60000 test: 10000
+{0: 5923, 1: 6742, 2: 5958, 3: 6131, 4: 5842, 5: 5421, 6: 5918, 7: 6265, 8: 5851, 9: 5949}
+run 1 epoch 1 train_loss: 0.143 val_acc: 0.9826
+run 1 epoch 2 train_loss: 0.0413 val_acc: 0.989
+run 1 epoch 3 train_loss: 0.0283 val_acc: 0.9908
+run 1 test_acc: 0.992
+run 2 epoch 1 train_loss: 0.14 val_acc: 0.9826
+run 2 epoch 2 train_loss: 0.0429 val_acc: 0.9824
+run 2 epoch 3 train_loss: 0.0277 val_acc: 0.9872
+run 2 test_acc: 0.9895
+run 3 epoch 1 train_loss: 0.1379 val_acc: 0.9874
+run 3 epoch 2 train_loss: 0.0407 val_acc: 0.9868
+run 3 epoch 3 train_loss: 0.0264 val_acc: 0.9878
+run 3 test_acc: 0.9887
+run 4 epoch 1 train_loss: 0.1401 val_acc: 0.9834
+run 4 epoch 2 train_loss: 0.0425 val_acc: 0.9872
+run 4 epoch 3 train_loss: 0.027 val_acc: 0.9848
+run 4 test_acc: 0.9821
+run 5 epoch 1 train_loss: 0.1535 val_acc: 0.984
+run 5 epoch 2 train_loss: 0.0418 val_acc: 0.9858
+run 5 epoch 3 train_loss: 0.0286 val_acc: 0.9914
+run 5 test_acc: 0.9898
+avg_test_acc_over_ 5 _runs: 0.9884
