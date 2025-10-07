@@ -2,7 +2,7 @@
 
 
 
-# Research Project
+# Project on CNN executions with MNIST
 
 ## Project Overview
 This repository contains the implementation and resources for the research project. It is intended to provide a reproducible environment for running the experiments, analyzing results, and extending the work further.  
