@@ -1,0 +1,9 @@
+{
+  "model": "ckan_small",
+  "width_mult": 0.7906249999999999,
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "in_channels": 3,
+  "image_size": 32,
+  "params": 989515
+}

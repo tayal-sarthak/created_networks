@@ -1,0 +1,4 @@
+dataset,model,width_mult,params,param_mem_mb,val_loss,val_acc,val_ece,val_nll,mc_ece,mc_nll,out_dir
+cifar10,ckan_small,0.791,989515,3.958,1.0138,0.641,0.111,1.0138,0.111,1.0138,outputs/chain/cifar10/ckan_small_p989515
+cifar10,resnet18,0.297,1028882,4.116,1.0806,0.6226,0.1123,1.0806,0.1123,1.0806,outputs/chain/cifar10/resnet18_p1028882
+cifar10,convnext_tiny,0.173,987674,3.951,1.5241,0.4451,0.0992,1.5241,0.0992,1.5241,outputs/chain/cifar10/convnext_tiny_p987674

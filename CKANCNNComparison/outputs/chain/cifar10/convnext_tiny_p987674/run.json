@@ -1,0 +1,9 @@
+{
+  "model": "convnext_tiny",
+  "width_mult": 0.1734375,
+  "dataset": "cifar10",
+  "num_classes": 10,
+  "in_channels": 3,
+  "image_size": 32,
+  "params": 987674
+}
