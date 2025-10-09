@@ -15,3 +15,13 @@ checkpoints/
 logs/
 tmp/
 outputs/chain/cifar10
+# Ignore large model artifacts anywhere
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.safetensors
+
+# Keep summary CSVs tracked
+!outputs/chain/summary.csv
