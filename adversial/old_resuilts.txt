@@ -1,0 +1,33 @@
+{
+  "resnet18": {
+    "clean": {
+      "top1": NaN,
+      "top5": NaN,
+      "count": 0
+    },
+    "corruptions": {
+      "defocus_blur": [
+        0.479,
+        0.6930000000000001
+      ],
+      "glass_blur": [
+        0.5063333333333333,
+        0.8376666666666667
+      ],
+      "motion_blur": [
+        0.42933333333333334,
+        0.7023333333333333
+      ],
+      "zoom_blur": [
+        0.569,
+        0.723
+      ]
+    },
+    "summary": {
+      "clean_top1": NaN,
+      "clean_top5": NaN,
+      "avg_corruption_top1_error": 0.6174583333333333,
+      "avg_corruption_top1_accuracy": 0.38254166666666667
+    }
+  }
+}
